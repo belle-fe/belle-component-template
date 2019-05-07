@@ -31,7 +31,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # 开发说明
 在packages 下的src 文件开发组件
 
-在src 文件夹下views 文件下 index.vue 文件把 元素BelleInput 换成 你所写的组件 name 名称。 然后运行 npm run serve  看组件效果
+然后运行 npm run serve  看组件效果
 
 
 打包需先修改 package.json 中的 
