@@ -1,10 +1,10 @@
 {
-  "name": "belle-input",
-  "version": "0.0.1",
+  "name": "belle-sms",
+  "version": "0.0.2",
   "private": false,
   "description": "百丽组件库",
-  "main": "lib/belle-input.umd.min.js",
-  "keyword": "belle-input",
+  "main": "lib/belle-sms.umd.min.js",
+  "keyword": "belle-sms",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.8.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
