@@ -1,7 +1,7 @@
 {
   "name": "{{name}}",
   "version": "{{version}}",
-  "private": {{#isPublic}}true{{else}}false{{/isPublic}},
+  "private": false,
   "description": "{{description}} {{name}}-百丽组件库",
   "main": "lib/{{name}}.umd.min.js",
   "keyword": "{{name}} {{ctype}} 百丽组件库",
