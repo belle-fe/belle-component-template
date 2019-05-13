@@ -2,7 +2,7 @@
   "name": "{{name}}",
   "version": "{{version}}",
   "private": false,
-  "description": "{{description}}-百丽组件库",
+  "description": "{{description}} {{name}}-百丽组件库",
   "main": "lib/{{name}}.umd.min.js",
   "keyword": "{{name}} 百丽组件库 {{ctype}}",
   "scripts": {
