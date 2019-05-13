@@ -55,7 +55,7 @@ module.exports = {
     },
     isPublic: {
       type: 'confirm',
-      default: 'n',
+      default: false,
       message: '是否开源'
     }
   }
