@@ -43,18 +43,19 @@ module.exports = {
       choices: [
         {
           name: '业务通用组件',
-          value: 'bizCom',
+          value: '业务通用组件',
           short: '业务组件'
         },
         {
           name: '普通通用组件',
-          value: 'commonCom',
+          value: '业务通用组件',
           short: '普通组件'
         }
       ]
     },
     isPublic: {
       type: 'confirm',
+      default: 'n',
       message: '是否开源'
     }
   }

@@ -4,7 +4,7 @@
   "private": {{#isPublic}}true{{else}}false{{/isPublic}},
   "description": "{{description}} {{name}}-百丽组件库",
   "main": "lib/{{name}}.umd.min.js",
-  "keyword": "{{name}} 百丽组件库 {{ctype}}",
+  "keyword": "{{name}} {{ctype}} 百丽组件库",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
