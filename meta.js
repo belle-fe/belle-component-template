@@ -37,7 +37,7 @@ module.exports = {
       message: '项目描述'
     },
     ctype: {
-      list: 'list',
+      type: 'list',
       required: true,
       message: '组件类型',
       choices: [
