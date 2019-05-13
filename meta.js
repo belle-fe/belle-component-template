@@ -52,6 +52,10 @@ module.exports = {
           short: '普通组件'
         }
       ]
+    },
+    isPublic: {
+      type: 'confirm',
+      message: '是否开源'
     }
   }
 };
