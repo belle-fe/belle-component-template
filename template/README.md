@@ -1,6 +1,8 @@
-# belle-components-store
+# {{ name }}
 
-## Project setup
+## {{ description }}
+
+## 项目构建
 ```
 npm install
 ```
@@ -31,7 +33,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # 开发说明
 在packages 下的src 文件开发组件
 
-然后运行 npm run serve  看组件效果
+然后运行 npm run dev  看组件效果
 
 
 打包需先修改 package.json 中的 
