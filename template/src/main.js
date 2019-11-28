@@ -6,9 +6,10 @@ import ElementUI from 'element-ui'
 import axios from 'axios'
 import 'element-ui/lib/theme-chalk/index.css'
 import BelleUi from './../packages/index'
+import request from  './request'
 Vue.use(BelleUi)
 Vue.use(ElementUI)
-Vue.prototype.$axios = axios
+Vue.prototype.$axios = request
 Vue.config.productionTip = false
 new Vue({
   router,
