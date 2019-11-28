@@ -3,7 +3,11 @@ import { Message } from 'element-ui' // MessageBox
 
 // 创建axios实例
 const service = axios.create({
+<<<<<<< HEAD
   baseURL: process.env.BASE_API, // api 的 base_url
+=======
+  baseURL: 'http://10.0.30.96/mock/149', // api 的 base_url
+>>>>>>> a4b7c7e7e44916208406f4c4f10368aad07808e5
   timeout: 5000 // 请求超时时间
 })
 
@@ -24,6 +28,7 @@ service.interceptors.response.use(
   response => {
     return response.data
   },
+<<<<<<< HEAD
   /**
    * 下面的注释为通过在response里，自定义code来标示请求状态
    * 当code返回如下情况则说明权限有问题，登出并返回到登录页
@@ -63,6 +68,8 @@ service.interceptors.response.use(
   //     return response.data
   //   }
   // },
+=======
+>>>>>>> a4b7c7e7e44916208406f4c4f10368aad07808e5
   error => {
     console.log('err' + error) // for debug
     Message({
