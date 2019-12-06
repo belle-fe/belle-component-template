@@ -9,7 +9,7 @@ import BelleUi from './../packages/index'
 import request from  './request'
 Vue.use(BelleUi)
 Vue.use(ElementUI)
-Vue.prototype.$axios = request
+Vue.prototype.$request = request
 Vue.config.productionTip = false
 new Vue({
   router,
